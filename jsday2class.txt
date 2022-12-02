@@ -1,0 +1,209 @@
+//beautiful naming
+var father_name = "something";
+var mother_name = "nothing";
+console.log(father_name);
+console.log(mother_name);
+
+var father name="something";
+console.log(father name); // its shows error beacuse spaces are not allowed in variables
+
+//data types
+var name ="balaraju"
+console.log(typeof(name)) //it shows in build datatypes
+
+var num=41663;
+console.log(typeof(num)) //number
+ 
+var num = "54665";
+console.log(typeof(num)) // string
+
+
+//mathematical operations
+
+var x = 10;
+var y = 20;
+var x = 30;
+var a = 40;
+console.log(x+y);
+console.log(x-y);
+console.log(x*y);
+console.log(x/y);
+
+// i want cal the product price
+
+var quantity_product = 2;
+var price_product = 400;
+
+var total = quantity_product + price_product;
+console.log("total=", total);
+
+var quantity_earphone = 20;
+var price_earphone = 400;
+
+var quantity_headphone = 30;
+var price_headphone = 600;
+
+var totalearphone = quantity_earphone + price_earphone;
+var totalheadphone = quantity_headphone + price_headphone;
+vat total = totalearphone + totalheadphone;
+//above are more process
+
+//simply way is
+var quantity_earphone = 20;
+var price_earphone = 400;
+var quantity_headphone = 30;
+var price_headphone = 600;
+
+var total = (quantity_ear + price_ear) + (quan_hea + pric_ head);
+console.log(total);
+
+//module operator %
+var first = 34;
+var sec = 6;
+var mod = first%sec;
+console.log(mod); // 4
+//interviewrs more than 1000 people
+server we have 1000 so we can use modulus
+
+your friend number is 17 asking to which panel number i get? how to do?
+we do console.log(17%4)
+console.log(8%4)
+//panel1   panel2   panel3  panel4
+  1          2        3       4
+  5          6        7       8 
+  9         10        11     12 
+  13        14        15     16
+  17        18        19     20
+
+rem=1     rem=2      rem=3   rem=0
+
+//expection operator[power](**);
+//2 3 
+console.log(2**3) //8
+console.log(2**4) //16
+
+var x = 2;
+var y = 3;
+var expan = x**y;
+console.log(expant)  //8
+
+//square root of 4 (4)1/2 = 4(0.5)
+console.log(4**0.5); //2
+console.log(4**1/3); //1.333
+
+var a = 2;
+var b = 3;
+var c = 4;
+var d = 5;
+var total1 = a+(b*c)-d; //wrong syntax
+var total2 = (a+b)*(c-d); //correct syntax
+console.log(total1); //9  first it will add inside brackets after add and sub
+console.log(total2); //5  
+
+//concatination
+var name = "bala raju";
+var welcome ="welcome";
+console.log(welcome, name) //welcome balaraju
+console.log(welcome+name) //welcomebala raju
+interview//when we are using numbers we can add that number when it comes to string it gives concatination
+
+//data type Boolean
+it contains true or false
+
+var x=false;
+var y=true;
+consloe.log(x);//false
+console.log(typeof(x)) //boolean
+console.log(y);
+console.log(typeof(y));
+
+// Description
+you need to print "TTF SERVICES" on a line. and pring "Working with metavarse"on a new line
+
+//out put = YYF SERVICES
+//          Working with metaverse
+
+var name ="TTF SERVICES";
+var 
+
+//
+function multipleBy50(Number){
+   console.log(Number *50) 
+}
+
+var number = 400;
+multipleBy50(number)
+
+//
+function product(one, two, three, four, five, six){
+console.log(one*two*three*four*five*six);
+}
+var one=1;
+var two=2;
+var three=3;
+var four=4;
+var five=5;
+var six=6;
+product(one, two, three, four, five, six) 
+
+//
+function squareAndSum(one, two, three){
+	var num1=one**2;
+	var num2=two**2;
+	var num3=three**2;
+	var sum=num1+num2+num3;
+	console.log(sum);
+}
+var one=1;
+var two=2;
+var three =3;
+squareAndSum(one, two, three)
+
+
+// you r given a number x find the value of s if x is multiplied by 3 and 10 is added to the new value of x
+//output = 19
+
+function find(x){
+console.log(x);
+var number=x*3;
+console.log(number)
+var output = number+10;
+}
+var x=3;
+find(x);
+
+//git hub
+git clone <link>
+
+
+Basic commands
+folder  as directory 
+1. pwd = present working directory
+2. mkdir = make a directory
+3. touch = create a file
+4. ls = list of directory
+5. cd = change working directory
+6. cd .. = move backwerd one directory
+7. rm = remove a directory/ file
+
+git hub 
+
+1.git init  = you are accessing git hub initilisation
+2.git remote add  origin https://github.com/saikiranoffical/Demo.git
+3.git add . = add evevey files to this repostitory
+4.git commit -m "added-all-fles-of-flipcart" = commit message what you want
+  git commit -m "added h1"
+  git commit -m "donecreatingcard"
+5.git push origin main
+
+
+//Basic commands
+folder  as directory 
+1. pwd = present working directory
+2. mkdir = make a directory
+3. touch = create a file
+4. ls = list of directory
+5. cd = change working directory
+6. cd .. = move backwerd one directory
+7. rm = remove a directory/ file
+
